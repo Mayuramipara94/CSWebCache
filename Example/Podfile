@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CSWebCache_Example' do
+  pod 'CSWebCache', :path => '../'
+
+  target 'CSWebCache_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
