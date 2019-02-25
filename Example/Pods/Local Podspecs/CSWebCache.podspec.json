@@ -1,8 +1,12 @@
 {
   "name": "CSWebCache",
   "version": "0.1.0",
-  "summary": "A short description of CSWebCache.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "iOS Offline Caching for Webview Content",
+  "swift_version": "4.0",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "description": "TODO: A Swift framework for storing entire web pages into a disk cache distinct from, but interoperable with, the standard URLCache layer. This is useful for both pre-caching web content for faster loading, as well as making web content available for offline browsing.",
   "homepage": "https://github.com/Mayuramipara94/CSWebCache",
   "license": {
     "type": "MIT",
@@ -15,11 +19,8 @@
     "git": "https://github.com/Mayuramipara94/CSWebCache.git",
     "tag": "0.1.0"
   },
-  "platforms": {
-    "ios": "10.0"
-  },
   "pod_target_xcconfig": {
-    "SWIFT_VERSION": "4.2"
+    "SWIFT_VERSION": "4.0"
   },
   "requires_arc": true,
   "source_files": "CSWebCache/Classes/**/*"
