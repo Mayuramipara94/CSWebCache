@@ -1,0 +1,26 @@
+{
+  "name": "CSWebCache",
+  "version": "0.1.0",
+  "summary": "A short description of CSWebCache.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mayuramipara94/CSWebCache",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mayur Amipara": "mayur.amipara@coruscate.co.in"
+  },
+  "source": {
+    "git": "https://github.com/Mayuramipara94/CSWebCache.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.2"
+  },
+  "requires_arc": true,
+  "source_files": "CSWebCache/Classes/**/*"
+}

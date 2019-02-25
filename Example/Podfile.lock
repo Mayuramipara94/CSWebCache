@@ -1,0 +1,16 @@
+PODS:
+  - CSWebCache (0.1.0)
+
+DEPENDENCIES:
+  - CSWebCache (from `../`)
+
+EXTERNAL SOURCES:
+  CSWebCache:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CSWebCache: d4bec100590a05a49659a05e84d4bda6f1ce91c2
+
+PODFILE CHECKSUM: 0724d14416156a857df75699bf5ff5666f5ebfe8
+
+COCOAPODS: 1.5.3
