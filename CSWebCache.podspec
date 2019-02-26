@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CSWebCache'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'iOS Offline Caching for Webview Content'
   s.swift_version    = '4.0'
   s.platform         = :ios
