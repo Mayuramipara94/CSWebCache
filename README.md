@@ -7,11 +7,11 @@
 
 ## Requirements
 
-iOS 10.0+ | Xcode 9.0+ | Swift 4.0+
+iOS 10.0+ | Xcode 10.0+ | Swift 4.0+
 
 ## Installation
 
-CSWebCache is available through [CocoaPods](https://cocoapods.org/CSWebCache). To install
+CSWebCache is available through [CocoaPods](https://cocoapods.org/pods/CSWebCache). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
