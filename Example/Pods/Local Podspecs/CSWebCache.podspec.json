@@ -20,8 +20,13 @@
     "tag": "0.1.0"
   },
   "pod_target_xcconfig": {
-    "SWIFT_VERSION": "4.0"
+    "SWIFT_INCLUDE_PATHS[sdk=iphoneos*]": "$(PODS_ROOT)/CommonCrypto/CocoaPods/iphoneos",
+    "SWIFT_INCLUDE_PATHS[sdk=iphonesimulator*]": "$(PODS_ROOT)/CommonCrypto/CocoaPods/iphonesimulator"
   },
   "requires_arc": true,
-  "source_files": "CSWebCache/Classes/**/*"
+  "source_files": "CSWebCache/Classes/**/*",
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/CommonCrypto/CommonCrypto.h"
+  },
+  "preserve_paths": "CommonCrypto/**/*"
 }

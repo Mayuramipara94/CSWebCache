@@ -20,6 +20,14 @@ TODO: A Swift framework for storing entire web pages into a disk cache distinct 
   s.requires_arc = true
   s.source_files = 'CSWebCache/Classes/**/*'
   
+   s.xcconfig         = { 'HEADER_SEARCH_PATHS' =>           '$(SDKROOT)/usr/include/CommonCrypto/CommonCrypto.h'}
+   s.preserve_paths = 'CommonCrypto/**/*'
+   
+   s.pod_target_xcconfig = {
+       'SWIFT_INCLUDE_PATHS[sdk=iphoneos*]'         => '$(PODS_ROOT)/CommonCrypto/CocoaPods/iphoneos',
+       'SWIFT_INCLUDE_PATHS[sdk=iphonesimulator*]'  => '$(PODS_ROOT)/CommonCrypto/CocoaPods/iphonesimulator',
+   }
+  
   #s.frameworks = 'CommonCrypto'
   #s.preserve_paths = 'CommonCrypto/*'
   #s.xcconfig = {
