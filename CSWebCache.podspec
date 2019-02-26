@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CSWebCache'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'iOS Offline Caching for Webview Content'
   s.swift_version    = '4.0'
   s.platform         = :ios
@@ -21,7 +21,7 @@ TODO: A Swift framework for storing entire web pages into a disk cache distinct 
   s.source_files = 'CSWebCache/Classes/**/*'
   
    s.xcconfig         = { 'HEADER_SEARCH_PATHS' =>           '$(SDKROOT)/usr/include/CommonCrypto/CommonCrypto.h'}
-   s.preserve_paths = 'CommonCrypto/**/*'
+   #s.preserve_paths = 'CommonCrypto/**/*'
    
    s.pod_target_xcconfig = {
        'SWIFT_INCLUDE_PATHS[sdk=iphoneos*]'         => '$(PODS_ROOT)/CommonCrypto/CocoaPods/iphoneos',
